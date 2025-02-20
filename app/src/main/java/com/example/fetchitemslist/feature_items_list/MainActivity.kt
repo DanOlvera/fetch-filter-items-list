@@ -1,4 +1,4 @@
-package com.example.fetchitemslist
+package com.example.fetchitemslist.feature_items_list
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
