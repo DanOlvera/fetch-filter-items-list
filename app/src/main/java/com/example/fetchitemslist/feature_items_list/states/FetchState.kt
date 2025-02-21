@@ -1,7 +1,9 @@
 package com.example.fetchitemslist.feature_items_list.states
 
-sealed class BaseUiState<out T> {
-    data object Loading: BaseUiState<Nothing>()
-    data class Success<out T>(val data: T): BaseUiState<T>()
-    data class Error<out T>(val message: T): BaseUiState<T>()
+import com.example.fetchitemslist.feature_items_list.model.data.FetchItemsResponse
+
+sealed class FetchState {
+    data object Loading: FetchState()
+    data class Success(val data: FetchItemsResponse): FetchState()
+    data class Error(val message: String): FetchState()
 }
