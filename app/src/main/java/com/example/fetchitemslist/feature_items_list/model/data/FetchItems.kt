@@ -1,6 +1,8 @@
-package com.example.fetchitemslist.feature_items_list.model
+package com.example.fetchitemslist.feature_items_list.model.data
 
-data class ExampleJson2KtKotlin (
+import com.google.gson.annotations.SerializedName
+
+data class FetchItems (
 
     @SerializedName("id"     ) var id     : Int?    = null,
     @SerializedName("listId" ) var listId : Int?    = null,
