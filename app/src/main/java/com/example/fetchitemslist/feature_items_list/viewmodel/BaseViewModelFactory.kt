@@ -1,4 +1,4 @@
-package com.example.fetchitemslist.core.viewmodel
+package com.example.fetchitemslist.feature_items_list.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider

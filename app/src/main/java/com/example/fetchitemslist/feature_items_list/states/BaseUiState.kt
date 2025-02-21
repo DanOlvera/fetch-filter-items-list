@@ -1,4 +1,4 @@
-package com.example.fetchitemslist.core.states
+package com.example.fetchitemslist.feature_items_list.states
 
 sealed class BaseUiState<out T> {
     data object Loading: BaseUiState<Nothing>()
