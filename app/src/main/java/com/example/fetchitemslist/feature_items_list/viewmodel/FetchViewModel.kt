@@ -22,7 +22,7 @@ class FetchViewModel(private val repository: FetchRepository): ViewModel() {
         }
     }
 
-    private fun fetchItems() {
+    internal fun fetchItems() {
         viewModelScope.launch {
             repository.getFetch().collect { fetch ->
                 try {
