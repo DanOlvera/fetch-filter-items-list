@@ -71,4 +71,18 @@ dependencies {
     implementation("com.squareup.okhttp3:logging-interceptor:4.12.0")
     implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
     implementation("com.squareup.okhttp3:logging-interceptor:4.12.0")
+
+    //Testing
+    // Optional -- Mockito framework
+    testImplementation ("org.mockito:mockito-core:4.8.0")
+    // Optional -- mockito-kotlin
+    testImplementation ("org.mockito.kotlin:mockito-kotlin:5.4.0")
+    testImplementation ("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.9.0")
+
+    testImplementation ("org.amshove.kluent:kluent-android:1.73")
+
+    testImplementation ("androidx.arch.core:core-testing:2.1.0")
+
+    testImplementation ("org.jetbrains.kotlin:kotlin-test:1.5.21")
+
 }
